@@ -25,7 +25,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
     } 
     else {
-        echo "Usuario no encontrado.";
+        //echo "Usuario no encontrado.";
+        header("location: vendedores.php");
     }
 }
 
